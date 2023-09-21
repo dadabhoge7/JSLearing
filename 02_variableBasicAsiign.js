@@ -1,0 +1,21 @@
+console.log("-*-*-*-*-Assignment_01 Data Types-*-*-*-*-");
+var pin=952710;
+console.log("==== NumberType ====");
+console.log("PIN :",pin,",","Type :",typeof pin);
+var MyName="Dada";
+console.log("==== StringType ====");
+console.log("Name :",MyName,",","Type :",typeof MyName);
+var isRight=true;
+console.log("==== BooleanType ====");
+console.log("IsRight :",isRight,",","Type :",typeof isRight);
+console.log("--<><><><><><><><><><><><><><><><><><><><><><><><>--");
+console.log("------------> Null Ves Undefined <------------------");
+var number;
+console.log("1)-------- Undefined -------");
+
+console.log("Ex : var number;",",","Type :", typeof number);
+console.log("variable is declared but value is not assigned any value then it is called undefined");
+var number=null;
+console.log("2)----------- Null -------");
+console.log("Ex : var number=null;",",","Type :", typeof number);
+console.log(" Null means variable we used to store data is no any value");
