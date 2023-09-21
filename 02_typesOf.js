@@ -1,4 +1,4 @@
-console.log("<><><><><><>< Assignment No 02 ><><><><><><");
+console.log("><><><><><>< Assignment No 02 ><><><><><>");
 console.log("*-*-Step I-*-*");
 var bankName;
 console.log("Before Initialization");
