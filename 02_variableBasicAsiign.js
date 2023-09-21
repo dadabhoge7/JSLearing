@@ -11,7 +11,7 @@ console.log("IsRight :",isRight,",","Type :",typeof isRight);
 console.log("--<><><><><><><><><><><><><><><><><><><><><><><><>--");
 console.log("------------> Null Ves Undefined <------------------");
 var number;
-console.log("1)-------- Undefined -------");
+console.log("1)------- Undefined -------");
 
 console.log("Ex : var number;",",","Type :", typeof number);
 console.log("variable is declared but value is not assigned any value then it is called undefined");
