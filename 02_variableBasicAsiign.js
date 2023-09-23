@@ -9,7 +9,7 @@ var isRight=true;
 console.log("==== BooleanType ====");
 console.log("IsRight :",isRight,",","Type :",typeof isRight);
 console.log("--<><><><><><><><><><><><><><><><><><><><><><><><>--");
-console.log("------------> Null Ves Undefined <-----------------");
+console.log("------------> Null Vs Undefined <-----------------");
 var number;
 console.log("1)------- Undefined -------");
 
