@@ -10,7 +10,7 @@ function isEvenOddNumber(c) {
     var evenOrOdd= c%2==0 ? "Even":"odd";
     console.log(`Given Number ${c} is Even or Odd :- ${evenOrOdd}`);
 }
-isEvenOddNumber(11);
+isEvenOddNumber(11);    
 isEvenOddNumber(20);
 
 console.log(`===========TASK 03==============`);
