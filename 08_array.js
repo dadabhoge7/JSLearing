@@ -65,3 +65,58 @@ console.log(arrayNums);
 console.log(`=====================AddRemoving element in first Shift() Method=====================================`);
 arrayNums.shift();
 console.log(arrayNums);
+
+console.log(`===========================================`);
+let arrayNumbers=[11,12,13,14,15,16];
+console.log(arrayNumbers);
+console.log(`=================slice() method==================`);
+console.log(arrayNumbers.slice(3));
+console.log(arrayNumbers.slice(1,3));
+
+console.log(`=================splice () method==================`);
+let arrayNumbers1=[11,12,13,14,15,16];
+console.log(arrayNumbers1);
+console.log(arrayNumbers1.splice(4));
+console.log(arrayNumbers1);
+
+console.log(`=================remove elements with index and delete count : splice () method==================`);
+let arrayNumbers2=[11,12,13,14,15,16];
+console.log(`Original Array : ${arrayNumbers2}`);
+console.log(`Removed element : ${arrayNumbers2.splice(2,1)}`);
+console.log(arrayNumbers2);
+
+console.log(`============Insertion element in array splice()==================`);
+
+let a = [1,2,3,4,5,6,7,8,9];
+console.log(`Original array : ${a}`);
+a.splice(2,0,99);
+console.log(`Final Array : ${a}`);
+
+console.log(`============Insertion multiple element in array splice()==================`);
+
+let b=[10,20,30,40,50];
+console.log(`Original Array : ${b}`);
+b.splice(2, 0, 300, 200, 100);
+console.log(`Final Array : ${b}`);
+
+console.log(`============insert an element 500 at index 2 by replacing an element==================`);
+let c =[1,2,3,4,5,6]
+console.log(`Original array : ${c}`);
+c.splice(2,2,500,600);
+console.log(`Final array by replacing value: ${c}`);
+
+console.log(`============For in loop==============`);
+let d = [10,20,30,40,50,60];
+for (const index in d) {
+    const element = d[index];
+    console.log(`Index : ${index} , d : ${element}`);
+ }
+console.log(`==========Array traverse in while loop=================`);
+ let e = [10,20,30,40,50,60];
+ console.log(`Array : ${e}`);
+ let index = 0;//initialization
+ while (index<e.length) {
+    console.log(e[index]);
+    index++;
+ }
+
