@@ -120,3 +120,10 @@ console.log(`==========Array traverse in while loop=================`);
     index++;
  }
 
+ console.log(`==============For Of Loop=================`);
+ let f = [10,15,20,25,30,35];
+ console.log(`MyArray : ${f}`);
+ for (const element of f) {
+    console.log(element);
+ }
+
