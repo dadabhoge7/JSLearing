@@ -1,0 +1,16 @@
+const arrayFruits = ["Banana","Orange", "Apple", "Mango","WaterMelon" ];
+console.log(`My ArrayFruits : [ ${arrayFruits} ]`);
+console.log(`First Element : ${arrayFruits[0]}`);
+console.log(`Last Element : ${arrayFruits[arrayFruits.length-1]}`);
+arrayFruits.unshift("Papaya");
+console.log(`My ArrayFruits add new element "Papaya before  Bananas" : [ ${arrayFruits} ]`);
+arrayFruits.splice(4,1);
+console.log(`Remove "Mango" from Array : [ ${arrayFruits} ]`);
+arrayFruits.push("PineApple");
+console.log(`Add an Element "PineApple" in last position : [ ${arrayFruits} ]`);
+arrayFruits.splice(4, 0, "DraganFruit" );
+console.log(`Insert an element "DraganFruit" before "Water Melon" : [ ${arrayFruits} ]`);
+arrayFruits.splice(2, 1, "Kiwi");
+console.log(`Replace an element "Orange" With "Kiwi" : [ ${arrayFruits} ]`);
+console.log(`Log the element Staring from index 1 to 4 : [ ${arrayFruits.slice(1,4)} ]`);
+console.log(`Log the last tree element : [ ${arrayFruits.slice(4)} ]`);
