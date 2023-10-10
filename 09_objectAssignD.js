@@ -52,7 +52,7 @@ console.log(`-------------------------------------------------------------------
 
 
 console.log(`=================Step-VII log the last element of array certificate==========================`);
-console.log(professor.certificate[3]);
+console.log(professor.certificate[professor.certificate.length-1]);
 
 console.log(`-------------------------------------------------------------------------------------------------`);
 
