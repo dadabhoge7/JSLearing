@@ -37,11 +37,16 @@ for (const Index in arrayOfVehicle) {
         const Vehicle = arrayOfVehicle[Index];
         console.log(Vehicle);
 }
-console.log(`-----> Vehicle details using Method <-----`);
-for (const Index in arrayOfVehicle) {
-    const Vehicle = arrayOfVehicle[Index];
-    Vehicle.details();
-}
+console.log(`-----> Vehicle1 details using Method <-----`);
+vehicle1.details();
+console.log(`-----> Vehicle2 details using Method <-----`);
+vehicle2.details();
+console.log(`-----> Vehicle3 details using Method <-----`);
+vehicle3.details();
+console.log(`-----> Vehicle4 details using Method <-----`);
+vehicle4.details();
+console.log(`-----> Vehicle5 details using Method <-----`);
+vehicle5.details();
 console.log(`________________________________________________________________________________________________________________________`);
 console.log(`------------------------------------------------------------------------------------------------------------------------`);
 
