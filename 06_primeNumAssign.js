@@ -2,7 +2,7 @@
 
 
 const array = [11,3,6,10,43,29,50];
-
+console.log(array);
 for (let index = 0; index < array.length; index++) {
     
     const element = array[index];
