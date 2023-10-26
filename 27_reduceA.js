@@ -10,5 +10,5 @@ for (const word of arrayWord) {
     let lastChar = word.charAt(word.length-1).toUpperCase();
     finalWord = finalWord + word;
     console.log(word,firstChar,lastChar);
-}
+} 
 console.log(finalWord);
