@@ -16,7 +16,7 @@ const emp_vinay = new Employee(24, "Vinay", "IT", 75000, "TCS");
 const emp_mahi = new Employee(24, "Mahi", "HR", 85000, "Infy");
 
 let arrayEmp = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_Monika, emp_vinay, emp_mahi];
-console.table(arrayEmp);
+console.log(arrayEmp);
 
 console.log(`Step 01 : Employee from "TCS" `);
 const tcsEmp = arrayEmp.filter((Employee)=>{
