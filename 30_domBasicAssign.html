@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML and javaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+const h1Element = document.querySelector('h1');
+console.log(h1Element.innerHTML);
+
+const adElement = document.querySelectorAll('li');
+console.log(adElement[1].innerHTML);
+
+const allAdElement = document.querySelector('#advantages');
+console.log(allAdElement.innerHTML);
+    </script>
+</body>
+</html>
