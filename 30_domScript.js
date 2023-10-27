@@ -47,9 +47,36 @@ console.log(`=============Update and change the text of an element==============
 const ElementTitle = document.querySelector('#title');
 ElementTitle.innerHTML = 'Learning DOM - Document Object Module';
 
+console.log(`=============set attribute=================`);
+const profileElement = document.querySelector('#profile');
+console.log(profileElement);
+console.log(profileElement.innerHTML);
+profileElement.setAttribute('href','https://www.linkedin.com/');
+
+const listHeading = document.querySelector('#listHeading');
+console.log(listHeading);
+listHeading.style.color = 'red';
+
+console.log(`=============crate a new node=================`);
+const liElement = document.createElement('li');
+const textNode = document.createTextNode('Angular and React');
+liElement.appendChild(textNode);
+const listElement = document.querySelector('#list');
+listElement.appendChild(liElement);
+console.log(listElement.innerHTML);
+
+console.log(`=============remove a node=================`);
+const listEl = document.querySelector('#list');
+const gitEle = document.querySelector('#git');
+listEl.removeChild(gitEle);
+console.log(listElement.innerHTML);
 
 
+const elejavaScript = document.querySelector('#javaScript');
+elejavaScript.addEventListener('click',()=>{
+alert(`click for me `);
+elejavaScript.style.color='red';
+elejavaScript.style.fontSize = '20px';
+});
 
-
-
-
+ 
